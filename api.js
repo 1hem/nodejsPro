@@ -23,8 +23,6 @@ app.get("/", (req, res) => {
 
 app.use("/api/products", productRouter);
 
-app.listen(8000, () => {
-   console.log("SEREVER STARTED AT 8000");
+app.listen(4020, () => {
+   console.log("SEREVER STARTED AT 4020");
 });
-
-/home/hem/express/ECOM-API-SERVER/ECOM-API-SERVER/api.js
